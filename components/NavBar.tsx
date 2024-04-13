@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
 
 export default function NavBar() {
   return (
@@ -20,16 +20,15 @@ export default function NavBar() {
 }
 
 const styles = StyleSheet.create({
-    navbarContainer: {
-        flex: 1,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-evenly',
-        width: '100%',
-        backgroundColor: 'red'
-    },
-    text: {
-        color: 'white'
-    }
-
+  navbarContainer: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-evenly",
+    width: "100%",
+    backgroundColor: "red",
+  },
+  text: {
+    color: "white",
+  },
 });
